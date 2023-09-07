@@ -6,3 +6,59 @@ body{
     width: 100vw;
     height: 100vh;
 }
+
+button{
+    cursor: pointer;
+}
+
+.btn {
+    height: 75px;
+    width: 75px;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.number {
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+}
+
+.number:hover {
+    background-color: palegreen;
+}
+
+.operator {
+    border: 2px solid steelblue;
+    border-radius: 10px;
+}
+
+.operator:hover{
+    background-color: paleturquoise;
+}
+
+.decimal{
+    border: 2px solid gold;
+    border-radius: 10px;
+}
+
+.decimal:hover{
+    background-color: palegoldenrod;
+}
+
+.equal{
+    border: 2px solid pink;
+    border-radius: 10px;
+}
+
+.equal:hover{
+    background-color: plum;
+}
+
+.clear{
+    border: 2px solid violet;
+    border-radius: 10px;
+}
+
+.clear:hover{
+    background-color: palevioletred;
+}
